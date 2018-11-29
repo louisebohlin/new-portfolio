@@ -1,0 +1,51 @@
+@import url("https://use.typekit.net/uik4zpc.css");
+$font-stack: 'neue-haas-grotesk-display',sans-serif;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100px;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+    h3 {
+      color: #000000;
+      text-decoration: none;
+      font-family: $font-stack;
+      font-weight: 500;
+      font-size: 30px;
+        h3:hover {
+          text-decoration: underline;
+        }
+    }
+}
+
+.header-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  font-family: $font-stack;
+  font-weight: 500;
+  font-size: 25px;
+}
