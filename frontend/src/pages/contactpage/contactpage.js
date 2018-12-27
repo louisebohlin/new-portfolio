@@ -1,9 +1,9 @@
 import React from "react"
 import { HashRouter as Router, Route, Link } from "react-router-dom"
 import Header from "../../components/header/header.js"
-import "./techpage.scss"
+import "./contactpage.scss"
 
-class TechPage extends React.Component {
+class ContactPage extends React.Component {
 
   render() {
     return (
@@ -17,4 +17,4 @@ class TechPage extends React.Component {
 
 }
 
-export default TechPage
+export default ContactPage
