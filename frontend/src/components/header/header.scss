@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  height: 100px;
+  height: auto;
   width: auto;
   top: 0;
   left: 0;
@@ -30,6 +30,7 @@ body {
       font-weight: 500;
       font-size: 30px;
       letter-spacing: 0.4px;
+      margin: 15px;
   }
     a {
     text-decoration: none;
@@ -42,7 +43,6 @@ body {
 .header-links {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
 }
 
 .header-links ul {
@@ -53,11 +53,13 @@ body {
   font-family: $font-stack;
   font-weight: 500;
   font-size: 25px;
+  margin: 10px 0px;
     a {
       text-decoration: none;
       color: #000000;
     }
     a:hover {
       text-decoration: underline;
+      color: #3ca1e0;
     }
 }
