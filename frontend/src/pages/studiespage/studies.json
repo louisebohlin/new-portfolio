@@ -1,0 +1,9 @@
+{
+	 "study": [{
+	    "id": 1,
+			"name": "Technigo",
+			"image": "./images/logo-circle.png",
+			"description": "xxx"
+      }
+    ]
+}
