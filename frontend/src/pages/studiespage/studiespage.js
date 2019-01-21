@@ -10,6 +10,16 @@ class StudiesPage extends React.Component {
     return (
       <div>
         <Header />
+          <div className="studies-wrapper">
+            <div className="study-box">
+              <div className="study-image">
+                <img src="./images/logo-circle.png" />
+              </div>
+            <div className="study-info">
+              <p>Technigo</p>
+              </div>
+            </div>
+          </div>
         <Footer />
 
       </div>

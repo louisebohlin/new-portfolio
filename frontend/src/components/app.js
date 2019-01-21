@@ -12,6 +12,7 @@ class App extends React.Component {
       <Router>
         <div>
           <Route path="/" exact="true" component={StartPage} />
+          <Route path="/start" exact="true" component={StartPage} />
           <Route path="/tech" exact="true" component={TechPage} />
           <Route path="/studies" exact="true" component={StudiesPage} />
           <Route path="/contact" exact="true" component={ContactPage} />
